@@ -17,7 +17,7 @@ function App() {
         <Route path='/' element={<Main />} />
         <Route path='/price/:symbol' element={<Price />} />
         <Route path='/currencies' element={<Currencies />} />
-        <Route path="*" element={<NotFound />} />
+        <Route path='*' element={<NotFound />} />
       </Routes>
     </>
   );

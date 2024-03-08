@@ -9,9 +9,6 @@ function NavBar() {
       <Link to='/currencies'>
         <div>CURRENCIES</div>
       </Link>
-      <Link to='/price'>
-        <div>PRICE</div>
-      </Link>
     </div>
   );
 }

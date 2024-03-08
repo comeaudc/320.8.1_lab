@@ -20,7 +20,7 @@ function Currencies() {
     );
   });
 
-  return <div>{coinList}</div>;
+  return <div className='currencies'>{coinList}</div>;
 }
 
 export default Currencies;
